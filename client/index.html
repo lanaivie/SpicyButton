@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice & Button</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Rokkitt&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="left">
+      <h1>Spice&Button</h1>
+        <div id="tabs">
+            <!-- This is where the new folders go -->
+        </div>
+        <div id="add-file">
+            <button class="button" id="new-file">
+                <span class="material-symbols-outlined">create_new_folder</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Center Column -->
+    <div id="recipe-box">
+        <!-- File recpies go here -->
+    </div>
+
+    <!-- Right Column -->
+    <div id="right">
+        <button class="button" id="add-recipe">
+            <span class="material-symbols-outlined">add</span>
+        </button>
+    </div>
+
+    <!-- Modal Background Overlay -->
+    <div class="modal-overlay" id="modal-overlay"></div>
+
+    <!-- Modal View -->
+    <div id="modal-view" class="modal">
+        <button class="modal-close material-symbols-outlined">close</button>
+        <div class="modal-content"></div>
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="spicy.js" defer></script>
+
+</body>
+
+</html>
+
+
